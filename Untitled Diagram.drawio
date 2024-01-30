@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T22:40:53.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" version="23.0.0" etag="YWc7iF90gRB4eBAdyMww" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T02:41:23.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Y8_opIflrfRmDhUnCnC6" version="23.0.2" type="github">
   <diagram name="Page-1" id="OsDCTFFcUCsN8zuCSZxm">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-1" value="&lt;div&gt;Height,&lt;/div&gt;&lt;div&gt;Room Length,&lt;/div&gt;&lt;div&gt;Room Depth,&lt;/div&gt;&lt;div&gt;Closet Length,&lt;/div&gt;&lt;div&gt;Closet Depth&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-4" target="8wQ8Ysk3uBlUi0FR1xbj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="45" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-5" target="8wQ8Ysk3uBlUi0FR1xbj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-5" value="Sqft Per Gallon is 400" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-11" target="8wQ8Ysk3uBlUi0FR1xbj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-11" value="Set Lengthwise Area to Room Length x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-13" target="8wQ8Ysk3uBlUi0FR1xbj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-13" value="Set Depthwise Area to Room Depth x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-15" target="8wQ8Ysk3uBlUi0FR1xbj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-15" value="Set Main Area to Length Area + Depthwise Area " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-17" target="8wQ8Ysk3uBlUi0FR1xbj-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-17" value="Set Lengthwise Area to Closet Length x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-21" target="8wQ8Ysk3uBlUi0FR1xbj-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-21" value="Set Depthwise Area to Closet Depth x Height x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-23" target="8wQ8Ysk3uBlUi0FR1xbj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-23" value="Set Closet Area to Lengthwise Area + Depthwise Area" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-25" target="8wQ8Ysk3uBlUi0FR1xbj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-25" value="Set Total Area to Main Area + Closet&amp;nbsp; Area" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-27" target="8wQ8Ysk3uBlUi0FR1xbj-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-27" value="Set New Total Area to Total Area subtract (Main Door + Closet Door Area + Window Area)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="660" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-31" target="8wQ8Ysk3uBlUi0FR1xbj-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-31" value="Set Complete Total Area to New Total Area x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-33" value="Set Gallon of Paint to Complete Total Area divided by Sqft Per Gallon (rounded up)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
