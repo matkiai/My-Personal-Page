@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T02:43:06.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="che9DmKyMkfvYvXQXCwi" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T21:42:25.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="lra2bN8fEBVH6Ysf21-J" version="23.0.2" type="github">
   <diagram name="Page-1" id="OsDCTFFcUCsN8zuCSZxm">
     <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -78,8 +78,22 @@
         <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-31" value="Set Complete Total Area to New Total Area x 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="45" y="810" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-33" target="8wQ8Ysk3uBlUi0FR1xbj-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-33" value="Set Gallon of Paint to Complete Total Area divided by Sqft Per Gallon (rounded up)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wQ8Ysk3uBlUi0FR1xbj-37" target="8wQ8Ysk3uBlUi0FR1xbj-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-37" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="800" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8wQ8Ysk3uBlUi0FR1xbj-38" value="Gallons of Paint" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
